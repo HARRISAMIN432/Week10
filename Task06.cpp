@@ -31,7 +31,7 @@ void reverseWords(string word)
     for (int i = numberOfWords - 1; i >= 0; i--)
     {
         cout << reverseWords[i];
-        if (i > 0)
-            cout << " ";
+        if (i < numberOfWords )
+            cout << " ";                                   
     }
 }
